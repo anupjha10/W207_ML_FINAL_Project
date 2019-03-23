@@ -34,7 +34,8 @@ Facial Key Point Detection
 ## Feature Engineering 
 We intend to do the following feature engineering to make the predictions accurate
  * 
-    5. What type of feature engineering you can see fit in your model (top view)?
+    
+5. What type of feature engineering you can see fit in your model (top view)?
         - this can improve later when you start working and change features to improve performance (Ex: add features that are combinations of other features, etc.)
     6. What is the expected outcome of your project?
     7. Run preliminary likelihoods for data already present to include prior scores
