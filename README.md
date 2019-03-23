@@ -42,7 +42,7 @@ We intend to do the following feature engineering to make the predictions accura
   * The model will be fed a gray scale image of face of size 96X96 
 
 ## Algorithms    
-  *  We plan to use :
+  *  We plan to use :  
     - Random Forest regression
     - SVM regression
     - Fully connected neural network 
