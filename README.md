@@ -49,6 +49,7 @@ We intend to do the following feature engineering to make the predictions accura
   - Convolutional neural network 
 
 ## Baseline 
+ * For Baseline performance we will take the mean value of each keypoint as prediction and check the accuracy 
     
 ## Data Set 
   * For the training set we have 7049 example rows but only 2140 examples have all the facial key points 
