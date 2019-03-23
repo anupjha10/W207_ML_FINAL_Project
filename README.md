@@ -43,10 +43,10 @@ We intend to do the following feature engineering to make the predictions accura
 
 ## Algorithms    
   *  We plan to use :  
-    - Random Forest regression
-    - SVM regression
-    - Fully connected neural network 
-    - Convolutional neural network 
+  - Random Forest regression
+  - SVM regression
+  - Fully connected neural network 
+  - Convolutional neural network 
 
 ## Baseline 
     
