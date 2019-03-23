@@ -33,15 +33,28 @@ Facial Key Point Detection
 
 ## Feature Engineering 
 We intend to do the following feature engineering to make the predictions accurate
- * 
+ * Normalization of the pixel values to be scaled between 0 and 1 
+ * Since we plan to use the neural nets for the predictions we don't focus much on feature engineering
+
+## Expected Outcome
+  * We plan to create a model which can predict the location of the key features in terms of pixel position 
+  * The model will be fed a gray scale image of face of size 96X96 
+
+7. Run preliminary likelihoods for data already present to include prior scores
+
+## Algorithms    
+  *  We plan to use :
+    - Fully connected neural network 
+    - Convolutional neural network 
+
+9. Try using a baseline approach first and base your improvement on it (look into ZeroR rule)
     
-5. What type of feature engineering you can see fit in your model (top view)?
-        - this can improve later when you start working and change features to improve performance (Ex: add features that are combinations of other features, etc.)
-    6. What is the expected outcome of your project?
-    7. Run preliminary likelihoods for data already present to include prior scores
-    8. What classification algorithms would you use and why?
-    9. Try using a baseline approach first and base your improvement on it (look into ZeroR rule)
-    10. How many observations do you have and what do they look like (describe it)?
+## Data Set 
+  * For the training set we have 7049 example rows but only 2140 examples have all the facial key points 
+  * We have test set set with 1783 images of 96X96 pixel images
+  * The training set has 7049 X 31 shape
+  * The last column has 
+10. How many observations do you have and what do they look like (describe it)?
     11. What hyper parameters would you consider changing and what you achieve with each?
     12. Would you consider using dimension reduction and if so, why? What kind?
     13. Prepare 6-8 min presentation for each group
