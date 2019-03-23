@@ -33,30 +33,39 @@ Facial Key Point Detection
 
 ## Feature Engineering 
 We intend to do the following feature engineering to make the predictions accurate
+ * For Random forest and SVM regression we will include gaussian blurring 
  * Normalization of the pixel values to be scaled between 0 and 1 
- * Since we plan to use the neural nets for the predictions we don't focus much on feature engineering
+ * Since we plan to use the neural nets for the predictions we don't focus much on feature engineering for neural nets but we will have dropouts of the neurons
 
 ## Expected Outcome
   * We plan to create a model which can predict the location of the key features in terms of pixel position 
   * The model will be fed a gray scale image of face of size 96X96 
 
-7. Run preliminary likelihoods for data already present to include prior scores
-
 ## Algorithms    
   *  We plan to use :
+    - Random Forest regression
+    - SVM regression
     - Fully connected neural network 
     - Convolutional neural network 
 
-9. Try using a baseline approach first and base your improvement on it (look into ZeroR rule)
+## Baseline 
     
 ## Data Set 
   * For the training set we have 7049 example rows but only 2140 examples have all the facial key points 
-  * We have test set set with 1783 images of 96X96 pixel images
+  * We will split the training set into training set and validation set
+  * We have test set set with 1783 images of 96X96 pixel images for which we need to submit our predictions for the competition
   * The training set has 7049 X 31 shape
-  * The last column has 
-10. How many observations do you have and what do they look like (describe it)?
-    11. What hyper parameters would you consider changing and what you achieve with each?
-    12. Would you consider using dimension reduction and if so, why? What kind?
-    13. Prepare 6-8 min presentation for each group
-    14. Anything else that you think is important to put in writing and discuss
+  * The last column has space separated values of pixels
+    
+## Hyper Paramaters 
+  * For Random forest we will tune the number of estimators,max depth
+  * For SVM regressor we will tune the regularization penalty 
+  * For the neural nets we will tune the number of neurons in each layer 
+  
+## Dimension reduction 
+ * For Random Forest and SVM regression we will consider PCA dimension reduction 
 
+## Loss Function 
+ * We would be using the RMSE error as output is a location of the keypoint and RMSE would be appropriate.
+ 
+ 
