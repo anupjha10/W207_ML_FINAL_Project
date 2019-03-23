@@ -69,4 +69,7 @@ We intend to do the following feature engineering to make the predictions accura
 ## Loss Function 
  * We would be using the RMSE error as output is a location of the keypoint and RMSE would be appropriate.
  
+ ## Data Augmentation
+  * Since the training set would be low in number when used in neural nets we would also flip the images to get more training data
+ 
  
