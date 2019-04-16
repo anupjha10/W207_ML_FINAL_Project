@@ -1,0 +1,15 @@
+We were team of only 2 members so each one of us contributed 
+to every aspect of the project equally.
+ 
+Each one of us tried all the options from data augmentation,
+feature engineering ,data enrichment to model design. 
+
+We were new to CNNs and was a great learning experience for us.
+
+We are really proud of the teamwork and the fact that with little time we had
+we were able to land in leaderboard at rank 19 out of 175 teams for which the 
+results have been published.
+
+Team4
+Anup Jha
+Anish Phillip 
